@@ -1,0 +1,137 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+html, body{
+  background-color: #E6E6EB;
+  width: 100%;
+}
+
+#header{
+  display: flex;
+  justify-content: space-between;
+  margin: 25px;
+}
+
+#header h1{
+  font-size: 25px;
+  font-weight: 700;
+}
+
+#header a{
+  color: #fff;
+  background: black;
+  text-decoration: none;
+  width: 120px;
+  padding: 10px;
+  border-radius: 25px;
+  border: none;
+}
+
+.preview{
+  width: 100%;
+  height: 50%;
+}
+
+.preview .review{
+  padding-left: 25px;
+}
+
+.review h1{
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.review p{
+  font-weight: 300;
+  margin-top: 25px;
+  margin-bottom: 45px;
+}
+
+.review a{
+ background-image: linear-gradient(90deg, #C15CFF, #FF5454);
+ color: #fff;
+ text-decoration: none;
+ padding: 10px;
+ border: none;
+ border-radius: 25px;
+}
+
+.preview img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.subject .course-feature{
+  background-image: linear-gradient(90deg, #C15CFF, #FF5454);
+  margin-bottom: 25px;
+  width: 312px;
+  height: 120px;
+  margin-left: 25px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.course-feature p{
+  padding: 25px;
+  text-align: center;
+}
+
+.courses{
+  background-color: white;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 15px;
+  gap: 10px;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.courses img{
+  width: 20%;
+}
+
+.courses h1{
+  font-size: 20px;
+  font-weight: 600;
+  margin: 15px 0;
+}
+
+.courses p{
+  font-size: 15px;
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+
+.courses a{
+  text-decoration: none;
+  color: #FF5454;
+  font-weight: bold;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0E1130;
+  height: 70px;
+  padding: 0 25px 0;
+}
+
+footer h1{
+  color: white;
+}
+
+footer a{
+  color: white;
+  text-decoration: none;
+  background-image: linear-gradient(90deg, #C15CFF, #FF5454);
+  border-radius: 25px;
+  padding: 10px;
+  width: 120px;
+}
