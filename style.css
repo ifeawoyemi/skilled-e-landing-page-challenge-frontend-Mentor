@@ -119,23 +119,40 @@ html, body{
 }
 
 footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  display: inline-block;
   background-color: #0E1130;
-  height: 70px;
+  height: 20vh;
   padding: 0 25px 0;
 }
 
-footer h1{
+footer .footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.footer h1{
   color: white;
 }
 
-footer a{
+.footer a{
   color: white;
   text-decoration: none;
   background-image: linear-gradient(90deg, #C15CFF, #FF5454);
   border-radius: 25px;
   padding: 10px;
-  width: 120px;
+  
+}
+
+footer .attribution{
+  margin-top: 10px;
+  text-align: center;
+  color: white;
+  font-size: 10px;
+}
+
+.attribution a{
+  text-decoration: none;
+  color: #384098;
 }
