@@ -157,24 +157,28 @@ footer .attribution{
 
 @media screen and (min-width: 980px){
   body{
-    
+      
   }
   .container{
     display: block;
-    place-self: center;
     padding: 2rem 5rem 0;
   }
   .preview{
     display: grid;
-    grid-template-columns: auto auto;
-  }
-  .preview img{
+    grid-template-columns: 2fr 2fr;
     
+  }
+  .preview{
+    margin-top: 4rem;
   }
   .subject{
     display: grid;
     grid-template-columns: 2fr 2fr 2fr;
     grid-template-rows: 1fr 1fr;
+  }
+  footer{
+    height: 20vh;
+    width: 100%;
   }
   
 }
